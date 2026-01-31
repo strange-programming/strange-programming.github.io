@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben | .NET Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #c9d1d9;
+            background-color: #0d1117;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        header {
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #21262d;
+        }
+        
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 600;
+            color: #f0f6fc;
+            margin-bottom: 0.5rem;
+        }
+        
+        .tagline {
+            font-size: 1.25rem;
+            color: #8b949e;
+        }
+        
+        .location {
+            font-size: 0.95rem;
+            color: #8b949e;
+            margin-top: 0.5rem;
+        }
+        
+        .links {
+            margin-top: 1rem;
+        }
+        
+        .links a {
+            margin-right: 1.25rem;
+        }
+        
+        section {
+            margin-bottom: 2.5rem;
+        }
+        
+        h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #f0f6fc;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #21262d;
+        }
+        
+        .about p {
+            color: #c9d1d9;
+            font-size: 1rem;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .skills span {
+            background: #21262d;
+            color: #c9d1d9;
+            padding: 0.35rem 0.85rem;
+            border-radius: 2rem;
+            font-size: 0.875rem;
+            border: 1px solid #30363d;
+        }
+        
+        .experience-item {
+            margin-bottom: 1.75rem;
+        }
+        
+        .experience-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .role-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 0.25rem;
+        }
+        
+        .role-title {
+            font-weight: 600;
+            color: #f0f6fc;
+            font-size: 1rem;
+        }
+        
+        .role-period {
+            color: #8b949e;
+            font-size: 0.875rem;
+        }
+        
+        .role-company {
+            color: #8b949e;
+            font-size: 0.925rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .role-description {
+            color: #c9d1d9;
+            font-size: 0.925rem;
+        }
+        
+        .role-tech {
+            margin-top: 0.5rem;
+            font-size: 0.85rem;
+            color: #8b949e;
+        }
+        
+        .education-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .degree {
+            color: #f0f6fc;
+            font-weight: 500;
+        }
+        
+        .grade {
+            color: #8b949e;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 2rem 1.25rem;
+            }
+            
+            h1 {
+                font-size: 1.75rem;
+            }
+            
+            .role-header {
+                flex-direction: column;
+                gap: 0.125rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ben</h1>
+        <p class="tagline">.NET Developer</p>
+        <p class="location">Midlands, UK</p>
+        <div class="links">
+            <a href="https://github.com/strange-programming">GitHub</a>
+        </div>
+    </header>
+    
+    <section class="about">
+        <h2>About</h2>
+        <p>.NET developer with 10+ years building high-traffic web applications and scalable cloud systems. Comfortable across the full stack with particular strength in backend services, APIs, and cloud platforms (Azure, AWS). Track record in e-commerce, recruitment, and logistics systems serving millions of users.</p>
+        <p style="margin-top: 1rem; color: #8b949e;">Key interests: transport, logistics, and commerce.</p>
+    </section>
+    
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>C#</span>
+            <span>.NET / .NET Core</span>
+            <span>ASP.NET MVC</span>
+            <span>Azure</span>
+            <span>AWS</span>
+            <span>Docker</span>
+            <span>Terraform</span>
+            <span>Azure DevOps</span>
+            <span>SQL Server</span>
+            <span>NoSQL</span>
+            <span>REST APIs</span>
+            <span>Microservices</span>
+            <span>CI/CD</span>
+            <span>Automated Testing</span>
+            <span>JavaScript</span>
+            <span>Vue.js</span>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Experience</h2>
+        
+        <div class="experience-item">
+            <div class="role-header">
+                <span class="role-title">Software Developer</span>
+                <span class="role-period">2025 – Present</span>
+            </div>
+            <p class="role-company">Leading UK Online Retailer – Recommerce Division</p>
+            <p class="role-description">Full-stack .NET developer building systems that power buy, sell, and rental services for refurbished tech. Delivering warehouse management, order processing, and courier integrations across a high-volume circular economy platform.</p>
+            <p class="role-tech">C#, .NET, Azure, Vue.js, MySQL, REST APIs, Microservices</p>
+        </div>
+        
+        <div class="experience-item">
+            <div class="role-header">
+                <span class="role-title">Software Engineer II</span>
+                <span class="role-period">2024 – 2025</span>
+            </div>
+            <p class="role-company">Global Online Fashion Retailer</p>
+            <p class="role-description">Delivered platform modernisation for high-traffic public-facing web applications, migrating from VM-based deployments to cloud-native containerised architecture with Docker, Kubernetes, and Azure DevOps. Refactored high-throughput APIs from .NET Framework to .NET Core and implemented Sitecore CMS features.</p>
+            <p class="role-tech">Azure DevOps, AKS, Docker, Bicep, C#, .NET, Sitecore</p>
+        </div>
+        
+        <div class="experience-item">
+            <div class="role-header">
+                <span class="role-title">Senior Full Stack Developer</span>
+                <span class="role-period">2016 – 2023</span>
+            </div>
+            <p class="role-company">Global Recruitment Platform</p>
+            <p class="role-description">Built and maintained high-traffic jobseeker applications serving millions of users. Rebuilt the notifications system from a monolith to scalable, cloud-based microservices handling millions of emails, SMS, and push notifications. Shipped the company's first .NET Core production deployment and pioneered rolling releases replacing big-bang deployments.</p>
+            <p class="role-tech">C#, .NET Core, AWS (Lambda, Step Functions, ECS, SQS), Terraform, SQL Server, JavaScript</p>
+        </div>
+        
+        <div class="experience-item">
+            <div class="role-header">
+                <span class="role-title">Software Engineer</span>
+                <span class="role-period">2014 – 2016</span>
+            </div>
+            <p class="role-company">Software Development Consultancy</p>
+            <p class="role-description">Delivered greenfield projects including a large-scale CMS implementation, a customisable live chat application, and utilities management systems for major UK organisations.</p>
+            <p class="role-tech">C#, .NET, ASP.NET MVC, Sitecore, Azure, JavaScript</p>
+        </div>
+        
+    </section>
+    
+    <section>
+        <h2>Education</h2>
+        <div class="education-item" style="margin-bottom: 1rem;">
+            <div>
+                <span class="degree">MSc Advanced Computing</span>
+                <p style="color: #8b949e; font-size: 0.85rem; margin-top: 0.25rem;">Machine Learning, Data Mining, High Performance Computing (coursework completed; left to begin career)</p>
+            </div>
+        </div>
+        <div class="education-item">
+            <span class="degree">BSc Computer Science</span>
+            <span class="grade">First-Class Honours</span>
+        </div>
+    </section>
+</body>
+</html>
